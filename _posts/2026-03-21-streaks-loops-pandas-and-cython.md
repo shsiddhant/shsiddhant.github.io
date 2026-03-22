@@ -64,7 +64,7 @@ def gen_bool_ser(
     return ser
 ```
 
-**Search fo streaks**
+**Search for streaks**
 
 ```python
 def loop(

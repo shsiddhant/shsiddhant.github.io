@@ -60,7 +60,7 @@ def gen_bool_ser(
     if int(min_length) < 2:
         raise ValueError("Streak Length must be at least 2")
     original_ser = original_ser.dropna()
-    ser = orig_ser.eq(original_ser.shift(-1)).iloc[:-1]
+    ser = original_ser.eq(original_ser.shift(-1)).iloc[:-1]
     return ser
 ```
 
